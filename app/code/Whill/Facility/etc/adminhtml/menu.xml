@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Whill::top_level" title="Whill" module="Whill_Facility" sortOrder="9999" resource="Magento_Backend::content"/>
+		<add id="Whill_Facility::whill_facility_facility" title="Facility" module="Whill_Facility" sortOrder="9999" resource="Magento_Backend::content" parent="Whill::top_level" action="whill_facility/facility/index"/>
+	</menu>
+</config>
